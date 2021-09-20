@@ -16,14 +16,19 @@ dotnet OutlinerDetection.dll [Deviation factor] [Past Number of days]
 The command should either provide both parameter value or none of them
 
 ## UsageUsage
+
 dotnet OutlinerDetection.dll
+
 dotnet OutlinerDetection.dll 0.05 10
+
 dotnet OutlinerDetection.dll 0.1 20
 
 
 ## Data and Result
 The data file Outliners.csv should be put in the working directory \Data folder.
+
 The result file Clean.csv will also be in the working directory \Data folder.
+
 The outliner will be show in the console, e.g:
 
 ~~~
